@@ -92,6 +92,10 @@ a {
   color: white;
 }
 
+a:hover {
+  color: green;
+}
+
 .link-active {
   color: #f06c64;
 }
@@ -206,6 +210,8 @@ a {
 }
 
 .row-text p {
+  height: 67px;
+  overflow: hidden;
   font-size: 12px;
   line-height: 22px;
   color: #767e9e;

@@ -186,7 +186,7 @@ a:hover {
 }
 
 .row:not(:last-child) {
-  margin-bottom: 29px;
+  margin-bottom: 30px;
 }
 
 .row-item {
@@ -195,11 +195,15 @@ a:hover {
 }
 
 .row-item:not(:last-child) {
-  margin-right: 21px;
+  margin-right: 20px;
 }
 
 .row-text {
-  margin-left: 19px;
+  margin-left: 20px;
+}
+
+.col-3 {
+  margin-left: 1px;
 }
 
 .row-text h2 {
@@ -213,6 +217,7 @@ a:hover {
 }
 
 .row-text p {
+  width: 219px;
   overflow: hidden;
   font-size: 12px;
   line-height: 22px;

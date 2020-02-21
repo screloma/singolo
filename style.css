@@ -8,6 +8,10 @@
   src: url('assets/fonts/Lato-Regular.ttf');
 }
 
+body {
+  font-family: 'Lato-Bold';
+}
+
 .wrapper {
   max-width: 1020px;
   margin: 0 auto;
@@ -16,10 +20,10 @@
 .header {
   display: flex;
   flex-direction: row;
-  background-color: #2d303a;
-  color: #f06c64;
   text-align: left;
   line-height: 6px;
+  background-color: #2d303a;
+  color: #f06c64;
 }
 
 .header a {
@@ -40,10 +44,6 @@
 .separator_services {
   height: 7px;
   background-color: white;
-}
-
-body {
-  font-family: 'Lato-Bold';
 }
 
 .logo {
@@ -72,9 +72,6 @@ body {
   text-align: left;
 }
 
-ul {
-}
-
 ul li {
   display: inline-block;
 }
@@ -90,10 +87,14 @@ ul li.nobullet:after {
 a {
   text-decoration: none;
   color: white;
+  -webkit-transition: color 500ms;
+  transition: color 500ms;
 }
 
 a:hover {
   color: green;
+  text-decoration: underline;
+  transition-duration: 500ms;
 }
 
 .link-active {
@@ -112,6 +113,7 @@ a:hover {
 .arrow {
   margin-top: 0;
   margin-bottom: 5px;
+  transition-duration: 500ms;
 }
 
 .arrow:first-child {
@@ -125,6 +127,11 @@ a:hover {
 
 .arrow:last-child:hover {
   content: url('assets/arrow_right.png');
+}
+
+.arrow:hover {
+  transform: scale(1.5);
+  transition-duration: 500ms;
 }
 
 .phone_vertical {
@@ -219,6 +226,10 @@ a:hover {
 .row-text p {
   width: 219px;
   overflow: hidden;
+  white-space: normal;
+  word-break: break-all;
+  hyphens: auto;
+  -webkit-hyphens: auto;
   font-size: 12px;
   line-height: 22px;
   color: #767e9e;

@@ -114,6 +114,8 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   background-color: #f2f2f2;
+  height: 730px;
+  box-sizing: border-box;
 }
 
 .about-header {

@@ -193,7 +193,7 @@ a:hover {
 }
 
 .row:not(:last-child) {
-  margin-bottom: 31px;
+  margin-bottom: 30px;
 }
 
 .row-item {
